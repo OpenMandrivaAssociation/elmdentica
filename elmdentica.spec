@@ -47,7 +47,7 @@ NOCONFIGURE=yes ./autogen.sh
 %configure2_5x \
 	--disable-static
 
-%make
+%make LIBS='-lecore_x'
 
 %install
 rm -fr %{buildroot}
