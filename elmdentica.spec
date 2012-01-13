@@ -21,6 +21,7 @@ URL:		http://www.enlightenment.org/
 Source0:	%{name}-%{version}.%{svnrev}.tar.xz
 
 BuildRequires:	edje
+BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(azy)
 BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(eina)
