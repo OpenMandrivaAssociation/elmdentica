@@ -17,7 +17,7 @@ Version:	0.9.10
 Release:	0.%{svnrev}.1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
-URL:		http://www.enlightenment.org/
+URL:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.%{svnrev}.tar.xz
 
 BuildRequires:	edje
